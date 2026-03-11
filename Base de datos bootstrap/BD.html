@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Conceptos de Base de Datos</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+
+.seccion{
+margin-bottom:40px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container mt-5">
+
+<h1 class="text-center mb-5">¿Qué es una Base de Datos?</h1>
+
+<div class="row">
+
+<div class="col-md-6 seccion">
+<h3>1. ¿Para qué sirve una BD?</h3>
+<p class="font-monospace">
+Una Base de Datos (BD) sirve para almacenar, organizar y administrar información de forma estructurada. Permite guardar grandes cantidades de datos y acceder a ellos de manera rápida y segura. Las bases de datos se utilizan en muchos lugares como bancos, hospitales, empresas, colegios y páginas web para guardar información de clientes, productos, estudiantes o transacciones.
+</p>
+</div>
+
+<div class="col-md-6 seccion">
+<h3>2. ¿Qué es un CRUD?</h3>
+<p class="font-monospace">
+CRUD es un conjunto de operaciones básicas que se utilizan para manejar la información dentro de una base de datos. Estas operaciones permiten crear nuevos datos, consultar la información existente, modificar datos guardados y eliminar información cuando ya no es necesaria. CRUD es fundamental en la mayoría de los sistemas informáticos que trabajan con bases de datos.
+</p>
+
+<p class="font-monospace">
+C – Create (Crear)<br>
+R – Read (Leer)<br>
+U – Update (Actualizar)<br>
+D – Delete (Eliminar)
+</p>
+</div>
+
+<div class="col-md-6 seccion">
+<h3>3. ¿Qué es un campo?</h3>
+<p class="font-monospace">
+Un campo es una parte de una tabla en una base de datos donde se guarda un tipo específico de información. Cada campo tiene un nombre y almacena un tipo de dato determinado, como texto, números o fechas. Por ejemplo, en una tabla de estudiantes pueden existir campos como nombre, edad, correo electrónico y número de identificación.
+</p>
+</div>
+
+<div class="col-md-6 seccion">
+<h3>4. ¿Qué es un registro?</h3>
+<p class="font-monospace">
+Un registro es un conjunto de campos relacionados que contienen toda la información de un elemento dentro de una tabla. Por ejemplo, en una tabla de estudiantes, un registro incluiría todos los datos de un estudiante específico, como su nombre, edad, dirección y correo electrónico.
+</p>
+</div>
+
+<div class="col-md-6 seccion">
+<h3>5. ¿Qué es un dato?</h3>
+<p class="font-monospace">
+Un dato es la unidad más pequeña de información que se puede almacenar en una base de datos. Representa un valor específico dentro de un campo, como un nombre, un número, una fecha o una dirección. Los datos permiten que la información pueda ser guardada, procesada y utilizada en diferentes sistemas.
+</p>
+</div>
+
+<div class="col-md-6 seccion">
+<h3>6. ¿Qué es un Diagrama Entidad-Relación?</h3>
+<p class="font-monospace">
+Un Diagrama Entidad-Relación (DER) es una representación gráfica que se utiliza para mostrar cómo se organiza la información dentro de una base de datos. En este diagrama se representan las entidades (como estudiantes, profesores o productos), sus atributos (campos) y las relaciones que existen entre ellas. Este tipo de diagrama ayuda a planificar y diseñar la estructura de una base de datos antes de crearla en un sistema.
+</p>
+</div>
+
+<h3 class="text-center mb-4">Ejemplo de Diagrama Entidad-Relación</h3>
+
+</div>
+
+<img src="modelo-entidad-relacion.gif" class="modelo-entidad-relacion.gif" alt="Modelo Entidad-Relación" style="display:block; margin: 0 auto; max-width:500%; height: 350px;;">
+
+<div>
+
+    <p class="font-monospace">Un ejemplo básico de un Diagrama Entidad-Relación (DER) puede ser el de un sistema escolar. En este caso existen dos entidades principales: Estudiante y Curso. La entidad Estudiante puede tener campos como ID, nombre y edad, mientras que la entidad Curso puede tener ID del curso y nombre del curso. La relación entre ellas puede llamarse inscripción, ya que un estudiante puede inscribirse en uno o varios cursos. Este diagrama ayuda a visualizar cómo se relacionan los datos antes de crear la base de datos, mostrando las entidades, sus atributos y la relación que existe entre ellas.
+    </p>
+        
+
+</div>
+
+</div>
+
+</body>
+</html>
