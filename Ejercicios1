@@ -1,1 +1,42 @@
+5.1
+for (let i = 1; i <= 20; i++) {
+    console.log(i);
+}
 
+5.2
+for (let i = 2; i <= 50; i++) {
+    if (i % 2 === 0) {
+        console.log(i);
+}
+
+5.3
+let saldo = 1000;
+while (saldo > 0) {
+    console.log(saldo);
+    saldo=saldo-150;
+}
+
+console.log("Saldo agotado");
+
+5.4
+let contador = 5;
+
+do {
+    console.log(contador);
+} while (contador > 0);
+
+console.log("Ignition");
+
+5.5
+for (let i = 1; i <= 20; i++) {
+
+    if (i % 3 === 0) {
+        continue;
+    }
+
+    if (i === 17) {
+        break; 
+    }
+
+    console.log(i);
+}
