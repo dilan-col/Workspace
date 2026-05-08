@@ -1,1 +1,8 @@
+1.Firma de una función en JavaScript
+Es la forma en la que se define una función, incluyendo su nombre y los parámetros que recibe. Sirve para identificar cómo debe usarse la función.
 
+2.Retorno de una función en JavaScript
+Es el valor que una función devuelve después de ejecutar su código. Se usa la palabra return.
+
+3.Argumento en JavaScript
+Es el valor que se envía a una función cuando se llama.
