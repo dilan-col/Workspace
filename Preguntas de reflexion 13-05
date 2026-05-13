@@ -1,1 +1,32 @@
+¿Qué es una función?
 
+Una función es un bloque de código que realiza una tarea específica.
+Sirve para reutilizar código sin tener que escribirlo varias veces.
+
+¿Qué son los parámetros?
+
+Los parámetros son los datos que recibe una función para poder trabajar.
+
+¿Qué hace return?
+
+return devuelve un resultado desde una función.
+
+¿Qué diferencia hay entre Node y React?
+
+Node.js
+Se usa para ejecutar JavaScript fuera del navegador.
+Funciona en la terminal.
+Se usa mucho para servidores y backend.
+
+React
+Se usa para crear interfaces gráficas y páginas web.
+Funciona en el navegador.
+Usa componentes y estados.
+
+¿Qué hace useState?
+
+useState guarda información dentro de un componente React.
+
+¿Por qué usamos Number() en React?
+
+Los inputs de HTML siempre guardan texto.
