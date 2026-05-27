@@ -1,0 +1,31 @@
+¿Por qué las APIs son tan importantes?
+
+Las APIs son importantes porque permiten que diferentes aplicaciones se comuniquen entre sí.
+Gracias a ellas, un sistema puede enviar y recibir información sin necesidad de saber cómo está construido el otro.
+Esto facilita el desarrollo de aplicaciones modernas, ya que se pueden conectar servicios como bases de datos, aplicaciones web y móviles.
+
+¿Qué diferencia existe entre base de datos y API?
+
+La base de datos es donde se almacena la información, mientras que la API es el intermediario que permite acceder a esos datos.
+Es decir, la base de datos guarda los datos y la API los entrega o los recibe cuando una aplicación los necesita.
+
+¿Por qué JSON es tan usado?
+
+JSON es muy usado porque es un formato ligero, fácil de leer y de escribir tanto para humanos como para máquinas.
+Además, es compatible con muchos lenguajes de programación, lo que lo hace ideal para enviar información entre aplicaciones.
+
+¿Qué ventajas tiene separar frontend y backend?
+
+Separar frontend y backend permite trabajar de manera más organizada.
+El frontend se encarga de lo visual (lo que ve el usuario) y el backend de la lógica y los datos.
+Esto facilita el mantenimiento, permite que varios desarrolladores trabajen al mismo tiempo y hace que las aplicaciones sean más escalables.
+
+¿Cómo se conectan las aplicaciones modernas?
+
+Las aplicaciones modernas se conectan a través de APIs usando internet.
+Generalmente, el frontend hace peticiones HTTP (GET, POST, etc.) a una API, y esta responde con datos en formato JSON.
+
+¿Qué ocurre si una API no valida correctamente los datos?
+
+Si una API no valida los datos, pueden ocurrir errores graves como información incorrecta, fallos en el sistema o problemas de seguridad.
+Por ejemplo, alguien podría enviar datos maliciosos o dañar la base de datos. Por eso, la validación es fundamental.
